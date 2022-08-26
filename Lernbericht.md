@@ -11,9 +11,9 @@ Ich habe gelernt, wie man Bild in JSF einbindet.
 
 ## Beschreibung
 
-'''xhtml
+```xhtml
 <h:graphicImage library="img" name="bd.png" width="200"/>
-'''
+```
 
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
