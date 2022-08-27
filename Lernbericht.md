@@ -11,13 +11,14 @@ Ich habe gelernt, wie man Bild in JSF einbindet.
 
 ## Beschreibung
 
-Im Projekt befindet sich ein Ordner namens "img", wo die Bilddatei "macbook.jpg" zu finden ist. <br />
-Somit suchen wir im Code nach der Library "img" und dem Bildnamen "macbook.jpg". <br />
+In JSF kann man den Tag <h:graphicImage /> verwenden, um ein HTML-Element "img" darzustellen. <br />
+Im Projekt befindet sich ein Ressourcenordner namens "img", wo die Bilddatei "macbook.jpg" zu finden ist. <br />
+Somit wollen wir, das Bild "macbook.jpg" darstellen. Um das zu tun, suchen wir im Code nach dem Ressourcenordner "img" und dem Bildnamen "macbook.jpg". 
 Ausserdem geben wir dem Bild noch eine Bildbreite von 500, damit es nicht sehr gross im Browser erscheint.
 
 ```xhtml
 <!-- JSF -->
-<!-- In der Library wird der Ordner "img" gesucht und darin die Bilddatei "macbook.jpg" -->
+<!-- Der Ressourcenordner "img" wird gesucht und darin die Bilddatei "macbook.jpg" -->
 <h:graphicImage library="img" name="macbook.jpg" width="500"/>
 ```
 
@@ -37,6 +38,6 @@ Von der Beschreibung können Sie lesen, dass ich verstanden habe, wie man ein Bi
 
 Mit meiner Leistung in diesem Modul bin ich sehr zufrieden, denn ich konnte bisher alle Aufträge lösen. 
 
-In einem Projekt musste ich die akutelle SessionID ausgeben, dabei war mein Code richtig aber die SessionID wurde trotzdem nicht angezeigt. Damit habe ich dann mehrere Minuten verloren, bis ich meine Lehrperson fragen musste, wo der Fehler lag. Dabei lag der Fehler an den imports oben im Code. Da meine Bean @SessionScoped war, muss auch ein passender import gemacht werden und dabei wurden mir von NetBeans zwei vorgeschlagen und ich habe einfach das erste genommen, was leider falsch war. Somit habe ich dann gelernt, dass ich den import mit .enterprise nehmen muss.
+In einem Projekt musste ich die akutelle SessionID ausgeben, dabei war mein Code richtig, aber die SessionID wurde trotzdem nicht angezeigt. Damit habe ich dann mehrere Minuten verloren, bis ich meine Lehrperson fragen musste, wo der Fehler lag. Dabei lag der Fehler an dem Import oben im Code. Da meine Bean @SessionScoped war, muss auch ein passender Import gemacht werden und dabei wurden mir von NetBeans zwei vorgeschlagen und ich habe einfach das Erste genommen, was leider falsch war. Somit habe ich dann gelernt, dass ich den Import mit .enterprise nehmen muss.
 
 **VBV**: Keinen
