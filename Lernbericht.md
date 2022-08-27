@@ -24,7 +24,6 @@ Ausserdem geben wir dem Bild noch eine Bildbreite von 500, damit es nicht sehr g
 
 ![grafik](https://user-images.githubusercontent.com/69577043/187035871-db6577d1-8893-4447-ac01-59e3e1737e13.png)
 
-
 ```html
 <!-- HTML output -->
 <img src="/5.%20BildEinfuegenDemo/faces/javax.faces.resource/macbook.jpg;jsessionid=fd1d0defc21cadabd021082ad3c8?ln=img" width="500">
